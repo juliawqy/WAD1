@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+
+	<form action="register.php" method="post">
+		<table>
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="first" size="25" required/></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="last" size="25" required/></td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td>
+						<input type="radio" name="gender" value="F" id="gender_f" checked/>
+						<label for="gender_f">Female </label> 
+
+						<!-- Alternative Way -->
+						<label>
+							<input type="radio" name="gender" value="M"/> 
+							Male
+						</label>
+				</td>
+			</tr>
+			<tr>
+
+			</tr>
+		</table>
+		<br/>
+		<input type="submit" value="Register"/>	
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title> Love Letter to Justin Babe </title>
+    </header>
+    <body>
+        <h1> Send Your Love to Justin </h1>
+        <img src="images/justin4.gif">
+        <form action="process_letter.php" method="GET">
+            Full Name: <input name="fullname" type="text" size="20"> <br>
+            Age: <input name="age" type="number" min="0"> <br>
+            Gender: <select name="gender">
+                <option value="m"> Male </option>
+                <option value="f"> Female </option> 
+            </select> <br>
+            Relationship Status (please be truthful): <br>
+            <input name="status" type="radio" value="Single"> Single <br>
+            <input name="status" type="radio" value="Attached"> Attached <br>
+            <input name="status" type="radio" value="Complicated"> Complicated <br>
+            Favourite Justin Songs: <br>
+            <input name="songs[]" type="checkbox" value="sorry"> Sorry <br>
+            <input name="songs[]" type="checkbox" value="baby"> Baby <br>
+            <input name="songs[]" type="checkbox" value="boyfriend"> Boyfriend <br>
+            <input name="songs[]" type="checkbox" value="lmly"> Let Me Love You <br>
+            <input name="songs[]" type="checkbox" value="idc"> I Don't Care <br>
+            Message to Justin: <br>
+            <textarea name="message" rows="3" cols="50"> </textarea> <br>
+            <input type="submit" value="Send My Love to Justin"></button>
+        </form>
+    </body>
+</html>

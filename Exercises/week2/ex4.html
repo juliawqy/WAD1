@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Customer Feedback Form </h1>
+        <form action="ex4.php">
+            Title: &nbsp; &nbsp; <input type="text" name="title" placeholder="Title of Feedback"> <br>
+            Name: &nbsp; <input type="text" name="name" placeholder="Enter Your Name"> <br>
+            Type: &nbsp; &nbsp; <select name="type">
+                <option value="inq"> Inquiries </option>
+                <option value="feed" selected> Feedback </option>
+                <option value="sugg"> Suggestions </option>
+            </select> <br><br><br>
+            Feedback <br>
+            <textarea name="feedback" rows="6" cols="30">Comments </textarea> <br><br><br>
+            <input type="reset">
+            <input type="submit">
+        </form>        
+    </body>
+</html>
